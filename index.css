@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    background: linear-gradient(to right bottom, #0096c7, #90e0ef);
+    background-size: cover;
+    height: 720px;
+    position: relative;
+}
+
+nav {
+    background-color: rgba(161, 233, 235, 0.2);
+    height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.home {
+    font-weight: bold;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.home:hover {
+    transform: scale(1.2);
+}
+
+.member1, .member2 {
+    font-weight: bold;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.member1:hover, .member2:hover {
+    transform: scale(1.2);
+}
+
+.member {
+    transition: 0.5s;
+    border-bottom: 0px solid white;
+}
+
+.member:hover {
+    border-bottom: 2px solid white;
+}
+
+.home1, .home2 {
+    transition: 0.5s;
+    border-bottom: 0px solid white;
+}
+
+.home1:hover, .home2:hover {
+    border-bottom: 2px solid white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.main img {
+    display: block;
+    width: 480px;
+    margin: auto;
+}
+
+.main-member {
+    display: inline-flex;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.main-member img {
+    width: 480px;
+}
+
+.main-member .member-info {
+    color: white;
+    display: block;
+    margin-top: 100px;
+    border: 1px double white;
+    margin-bottom: 180px;
+    padding: 0px 10px;
+    border-radius: 10px;  
+}
+
+.main-member .member-info .name {
+    font-size: 30px;
+    font-weight: bold;
+}
