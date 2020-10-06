@@ -59,9 +59,16 @@ nav a {
     border-bottom: 2px solid white;
 }
 
-h1 {
-    color: white;
-    text-align: center;
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main .info {
+    margin: 0px 100px;
+}
+
+.main .info h1 {
     font-size: 50px;
 }
 
@@ -69,6 +76,18 @@ h1 {
     display: block;
     width: 480px;
     margin: auto;
+}
+
+.info {
+    color: white;
+    display: block;
+    margin-top: 100px;
+    border: 1px double white;
+    margin-bottom: 180px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: rgba(189, 224, 238, 0.6);
+    box-shadow: 5px 5px rgb(189, 224, 238);
 }
 
 .main-member {
@@ -81,16 +100,6 @@ h1 {
 
 .main-member img {
     width: 480px;
-}
-
-.main-member .member-info {
-    color: white;
-    display: block;
-    margin-top: 100px;
-    border: 1px double white;
-    margin-bottom: 180px;
-    padding: 0px 10px;
-    border-radius: 10px;  
 }
 
 .main-member .member-info .name {
